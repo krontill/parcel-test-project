@@ -15,12 +15,14 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "react": "^17.0.1",
+    "react": "^16.8.3 || ^17.0.0-0",
     "react-dom": "^17.0.1",
-    "styled-components": "^5.2.1"
+    "react-table": "^7.6.3",
+    "styled-components": "^5.2.1",
+    "table-react": "^1.0.9",
+    "types": "^0.1.1"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.7",
     "@babel/core": "^7.12.10",
     "@storybook/addon-actions": "^6.1.14",
     "@storybook/addon-essentials": "^6.1.14",
@@ -28,6 +30,7 @@
     "@storybook/react": "^6.1.14",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
     "babel-loader": "^8.2.2",
     "cypress": "^6.2.1",
     "eslint": "^7.18.0",
